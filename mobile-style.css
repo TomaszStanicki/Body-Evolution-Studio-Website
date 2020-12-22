@@ -1,0 +1,191 @@
+
+
+
+@media only screen and (max-width: 900px) {
+    header .navbar-brand {
+      padding-left: 1rem;
+    }
+    .section-1 .row .col-md-6 .panel {
+      position: initial;
+      width: initial;
+      height: initial;
+    }
+   
+    .numbers .rect {
+      width: 10rem;
+      height: 8rem;
+    }
+    .numbers .rect h1 {
+      font-size: 2rem;
+    }
+ 
+    .section-1{
+      padding-bottom: 750px;
+      position: relative;
+    }
+
+    .section-1 .row .col-md-6 .pray img {
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+    }
+
+    .section-1 .row .col-md-6 .panel {
+      margin-top: -25px;
+    }
+    
+    .envelope{
+      margin: 0 auto;
+    }
+
+    .contact{
+    padding-top: 300px;
+  }
+  
+  
+  .Social-media{
+    left: 40px;
+  }
+  
+  .diet{
+    height: auto;
+    padding-bottom: 200px;
+    display: block;
+  }
+
+.dietText{
+    padding: 0 30px;
+    height: 50px;
+}
+
+.dietText h1{
+  padding-top: 200px;
+  padding-bottom: 100px;
+    left: 40px;
+    font-size: 5vw;
+    top: -500px;
+    font-size: 24px;
+}
+
+.dietText p{
+  margin-top: -600px;
+  font-size: 18px;
+  margin-left: 0px;
+  z-index: 1;
+}
+
+
+.diet .dietText img{
+    width: 80vw;
+    top: -290px;
+    left: 220px;opacity: 0.5;
+  }
+
+
+  .dietList{
+    width: 65%;
+    margin-left: 20px;
+    margin-top: -200px;
+    padding-top: 50px;
+}
+
+.dietList ol li{
+    font-size: 26px;
+}
+
+.dietList li p{
+    font-size: 16px;
+}
+
+.open{
+  text-align: center;
+  padding-bottom: 200px;
+  margin-top: -250px;
+  font-size: 30px;
+}
+
+.logo {
+  position: fixed;
+  top: -5px;
+  left:-50px;
+  
+}
+
+nav ul {
+  max-height: 0px;
+  background: rgb(255, 255, 255);
+}
+
+nav.black ul {
+  background: rgb(255, 255, 255);
+}
+
+.showing {
+  max-height: 34em;
+}
+
+nav ul li {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.menu-icon {
+  display: block;
+}
+
+nav ul li:hover .sub-menu{
+      width: 180px;
+      position: absolute;
+      visibility: visible;
+      border: none;
+      box-shadow: none;
+      padding-right: 110px;
+      padding: 0px;
+      opacity: 1;
+      z-index: 0;
+      background: transparent;
+      margin-top: -200px;
+    }
+      
+      
+nav ul li .sub-menu{
+position: absolute;
+transition: all 1s ease;
+opacity: 0;
+visibility: hidden;
+}
+
+nav ul li .sub-menu .menu-item a{
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+ nav ul li .sub-menu .menu-item{
+      text-align: left;
+    }
+  
+  
+}
+
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

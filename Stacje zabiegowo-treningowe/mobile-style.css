@@ -1,0 +1,120 @@
+
+
+
+@media only screen and (max-width: 1100px) {
+  
+  
+  .logo {
+  position: fixed;
+  top:0;
+  margin-left: -40px;
+  
+}
+
+nav ul {
+  max-height: 0px;
+  background: rgb(255, 255, 255);
+}
+
+nav.black ul {
+  background: rgb(255, 255, 255);
+}
+
+.showing {
+  max-height: 34em;
+}
+
+.Social-media{
+  left: 40px;
+}
+.header-ef h3{
+  font-size: 2rem;
+    
+}
+nav ul li {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.menu-icon {
+  display: block;
+}
+
+nav ul li:hover .sub-menu{
+  width: 180px;
+  position: absolute;
+  visibility: visible;
+  border: none;
+  box-shadow: none;
+  padding-right: 110px;
+  padding: 0px;
+  opacity: 1;
+  z-index: 0;
+  background: transparent;
+  margin-top: -200px;
+}
+  
+  
+nav ul li .sub-menu{
+position: absolute;
+transition: all 1s ease;
+opacity: 0;
+visibility: hidden;
+}
+
+  nav ul li .sub-menu .menu-item a{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+    nav ul li .sub-menu .menu-item{
+      text-align: left;
+    }
+
+    .social ul {
+      position: absolutex;
+      margin-top:0;
+      right: 100%;
+    }
+
+    .section-1 .row .col-md-6 .panel,
+    .section-2 .row .col-md-6 .panel,
+    .section-3 .row .col-md-6 .panel,
+    .section-4 .row .col-md-6 .panel,
+    .section-5 .row .col-md-6 .panel,
+    .section-6 .row .col-md-6 .panel {
+      position: initial;
+      width: initial;
+      height: initial;
+   }
+
+  .header-ef h3{
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .section-6 .row .col-md-6 .pray img {
+    margin-left: -30%;
+    margin-top: -100px;
+    
+  }
+}
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

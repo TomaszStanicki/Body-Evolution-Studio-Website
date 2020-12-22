@@ -1,0 +1,192 @@
+
+
+
+
+@media only screen and (max-width: 1100px) {
+  
+   .footer-menu{
+    margin: 0 auto;
+  }
+ 
+  .logo {
+  position: fixed;
+  top: 0;
+  margin-left: -40px;
+  }
+
+nav ul {
+  max-height: 0px;
+  background: rgb(255, 255, 255);
+}
+
+nav.black ul {
+  background: rgb(255, 255, 255);
+}
+
+.showing {
+  max-height: 34em;
+}
+
+nav ul li {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+.Social-media{
+  left: 40px;
+}
+
+.menu-icon {
+  display: block;
+}
+
+nav ul li:hover .sub-menu{
+  width: 180px;
+  position: absolute;
+  visibility: visible;
+  border: none;
+  box-shadow: none;
+  padding-right: 110px;
+  padding: 0px;
+  opacity: 1;
+  z-index: 0;
+  background: transparent;
+  margin-top: -200px;
+}
+  
+  
+nav ul li .sub-menu{
+position: absolute;
+transition: all 1s ease;
+opacity: 0;
+visibility: hidden;
+
+
+}
+
+nav ul li .sub-menu .menu-item a{
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+ nav ul li .sub-menu .menu-item{
+     text-align: left;
+  }
+
+ .social ul {
+      position: fixed;
+      margin-top:10000px;
+      right: 100%;
+  }
+    
+  .container {
+    padding: 100px;
+    z-index: 0;
+    } 
+    
+  }
+     
+      
+
+  @media (max-width: 850px) {
+    .form {
+      grid-template-columns: 1fr;
+    }
+  
+    .contact-info:before {
+      bottom: initial;
+      top: -75px;
+      right: 65px;
+      transform: scale(0.95);
+    }
+  
+    .contact-form:before {
+      top: -13px;
+      left: initial;
+      right: 70px;
+    }
+  
+    .square {
+      transform: translate(140%, 43%);
+      height: 350px;
+    }
+  
+    .big-circle {
+      bottom: 75%;
+      transform: scale(0.9) translate(-40%, 30%);
+      right: 50%;
+    }
+  
+    .text {
+      margin: 1rem 0 1.5rem 0;
+    }
+  
+    .social-media {
+      padding: 1.5rem 0 0 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 1.5rem;
+    }
+  
+    .contact-info:before {
+      display: none;
+    }
+  
+    .square,
+    .big-circle {
+      display: none;
+    }
+  
+    form,
+    .contact-info {
+      padding: 1.7rem 1.6rem;
+    }
+  
+    .text,
+    .information,
+    .social-media p {
+      font-size: 0.8rem;
+    }
+  
+    .title {
+      font-size: 1.15rem;
+    }
+  
+    .social-icons a {
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+    }
+  
+    .icon {
+      width: 23px;
+    }
+  
+    .input {
+      padding: 0.45rem 1.2rem;
+    }
+  
+    .btn {
+      padding: 0.45rem 1.2rem;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
